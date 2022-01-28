@@ -4,50 +4,15 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Parmarth Rock Paper Scissor Game</title>
-    <link rel="stylesheet" href="./RockPaperScissor/style.css" />
+    <title>Typing Game</title>
+    <link rel="stylesheet" href="./TypingGame/style.css" />
   </head>
   <body>
-    <section class="game">
-      <!-- SCORES -->
-      <div class="score">
-        <div class="player-score">
-          <h2>Player</h2>
-          <p>0</p>
-        </div>
-        <div class="computer-score">
-          <h2>Computer</h2>
-          <p>0</p>
-        </div>
-      </div>
-      <!-- INTRO -->
-      <div class="intro">
-        <h1>Parmarth Rock Paper Scissors</h1>
-        <button>Let's Play</button>
-      </div>
-      <!-- THE ACRUAL GAME-->
-      <div class="fadeOut match">
-        <h1 class="winner">Choose an option</h1>
-        <div class="hands">
-          <img
-            class="player-hand"
-            src="./RockPaperScissor/assets/rock.png"
-            alt="rock"
-          />
-          <img
-            class="computer-hand"
-            src="./RockPaperScissor/assets/rock.png"
-            alt="rock"
-          />
-        </div>
-        <div class="options">
-          <button class="rock">rock</button>
-          <button class="paper">paper</button>
-          <button class="scissors">scissors</button>
-        </div>
-      </div>
-    </section>
-
-    <script src="./RockPaperScissor/app.js"></script>
+    <div class="timer" id="timer"></div>
+    <div class="container">
+      <div class="quote-display" id="quoteDisplay"></div>
+      <textarea id="quoteInput" class="quote-input" autofocus></textarea>
+    </div>
+    <script src="./TypingGame/app.js"></script>
   </body>
 </html>
