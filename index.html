@@ -2,45 +2,141 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
-      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <title>Todo List</title>
-    <link rel="stylesheet" href="./TodoList/style.css" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="description" content="Hello , This is  my Personal Site!!" />
+    <title>Parmarth's Website</title>
   </head>
   <body>
-    <header>
-      <h1>My Todo List</h1>
-    </header>
+    <style>
+      img {
+        height: 230px;
+      }
+    </style>
 
-    <form>
-      <input type="text" class="todo-input" />
-      <button class="todo-button">
-        <i class="fas fa-plus-square"></i>
-      </button>
-      <div class="select">
-        <select name="todos" class="filter-todo">
-          <option value="all">All</option>
-          <option value="completed">Completed</option>
-          <option value="uncompleted">Uncompleted</option>
-        </select>
-      </div>
-    </form>
+    <table>
+      <tr>
+        <td>
+          <img
+            src="./website/images/my-picture-modified.png"
+            alt="Parmarth's Profile Picture"
+            srcset=""
+          />
+        </td>
+        <td>
+          <h1>Parmarth</h1>
+          <p><em>I love </em><strong> Web Development and Designing</strong></p>
+          <p>
+            I like to play <a href="https://lichess.org/">Chess</a>. I love cold
+            cofee and
+            <a
+              href="https://www.google.com/search?q=Pizza&sxsrf=APq-WBvAZFWkvX4z6gq-AA4T3a3b4dxr5g:1643431251139&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiC376_ktb1AhV3yjgGHY2EBuMQ_AUoAXoECAEQAw&cshid=1643431267917371&biw=1920&bih=933&dpr=1"
+              >Pizza</a
+            >
+          </p>
+        </td>
+      </tr>
+    </table>
 
-    <div class="todo-container">
-      <ul class="todo-list"></ul>
-    </div>
+    <hr />
+    <h3>About Me</h3>
+    <ul>
+      <li>I am 14 years old.</li>
+      <li>I am in 9th standard.</li>
+      <li>
+        I live in India,<a href="https://en.wikipedia.org/wiki/Punjab">Punjab</a
+        >.
+      </li>
+    </ul>
+    <hr />
+    <h3>Some Random Dates</h3>
 
-    <script src="./TodoList/app.js" defer></script>
+    <table cellspacing="10">
+      <thead>
+        <th>Dates</th>
+        <th>What happened?</th>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>2007</td>
+          <td>I was Born!!</td>
+        </tr>
+        <tr>
+          <td>2013</td>
+          <td>I started playing Chess!!</td>
+        </tr>
+      </tbody>
+    </table>
+    <hr />
+    <h3>Skills</h3>
+    <table cellspacing="10">
+      <tr>
+        <td>Web Development</td>
+        <td>⭐⭐⭐⭐</td>
+      </tr>
+      <tr>
+        <td>Chess</td>
+        <td>⭐⭐⭐⭐⭐</td>
+      </tr>
+      <tr>
+        <td>Photography</td>
+        <td>⭐⭐</td>
+      </tr>
+      <tr>
+        <td>Painting</td>
+        <td>⭐</td>
+      </tr>
+    </table>
+
+    <!-- <table>
+      <tr>
+        <td>
+          <table>
+            <tr>
+              <td>Web Development</td>
+              <td>⭐⭐⭐⭐</td>
+            </tr>
+            <tr>
+              <td>Chess</td>
+              <td>⭐⭐⭐⭐⭐</td>
+            </tr>
+            <tr>
+              <td>Photography</td>
+              <td>⭐⭐</td>
+            </tr>
+            <tr>
+              <td>Painting</td>
+              <td>⭐</td>
+            </tr>
+          </table>
+        </td>
+        <td>
+          <table>
+            <tr>
+              <td>Web Development</td>
+              <td>⭐⭐⭐⭐</td>
+            </tr>
+            <tr>
+              <td>Chess</td>
+              <td>⭐⭐⭐⭐⭐</td>
+            </tr>
+            <tr>
+              <td>Photography</td>
+              <td>⭐⭐</td>
+            </tr>
+            <tr>
+              <td>Painting</td>
+              <td>⭐</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table> -->
+
+    <hr />
+
+    <a href="./website/hobbies.html">Hobbies</a>
+    <a href="./website/contact-me.html">Contact Me</a>
   </body>
 </html>
